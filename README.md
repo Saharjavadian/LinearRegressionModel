@@ -1,1 +1,1 @@
-# LinearRegressionModel
+# Energy Usage Predictor (Regression Analysis)
