@@ -7,7 +7,7 @@ The data set contains hourly power usage of a residential building in Houston, T
 The link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
 
 # The steps are outlined below
-Step1: Import libraries
+Step1: Import libraries<br>
 Step2: load data
 Step3: Exploratory ddata analysis (EDA). This step consists of the following actions:
        A: report on the general info like, the number of rows and columns and missing points
