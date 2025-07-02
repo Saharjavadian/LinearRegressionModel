@@ -8,7 +8,7 @@ The link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years
 
 # The steps are outlined below
 Step1: Import libraries<br>
-Step2: load data
-Step3: Exploratory ddata analysis (EDA). This step consists of the following actions:
-       A: report on the general info like, the number of rows and columns and missing points
-       B: Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be deleted. 
+Step2: load data<br>
+Step3: Exploratory ddata analysis (EDA). This step consists of the following actions:<br>
+       A: report on the general info like, the number of rows and columns and missing points<br>
+       B: Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be deleted.<br>
