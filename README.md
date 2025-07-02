@@ -17,4 +17,5 @@ Step3: Exploratory ddata analysis (EDA). This step consists of the following act
 
 
 # Analysis
-1: Based on the plot in Step 3, energy usage decreased during the period of 2020–2021. Additionally, a shift in seasonal usage patterns is observed: in 2016–2017, higher energy consumption occurred toward the end of the year, whereas in 2020–2021, more energy was used in the early months. This pattern is evident from the density and distribution of data points on the plot
+1: Based on the plot in Step 3, energy usage decreased during the period of 2020–2021. Additionally, a shift in seasonal usage patterns is observed: in 2016–2017, higher energy consumption occurred toward the end of the year, whereas in 2020–2021, more energy was used in the early months. This pattern is evident from the density and distribution of data points on the plot.<br>
+2: When comparing the plots for these four years, we observe subsequence outliers in the early months of 2016 and the later months of 2020—periods where consecutive data points display unusual behavior. If we plan to build a predictive model, such as a regression, it would be advisable to remove these time segments from the dataset to avoid distortion in the model's performance
