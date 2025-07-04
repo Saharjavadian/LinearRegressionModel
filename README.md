@@ -16,7 +16,7 @@ Step4: Train Liner regression model.<br>
 Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.
 
 
-![walkforward](https://github.com/user-attachments/assets/bfa838c3-4151-4caa-9800-eb13b7b7a0bf)
+![walkforward](https://alphascientist.com/images/walkforward.png)
 
 
 
