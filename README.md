@@ -12,9 +12,11 @@ Step2: load data<br>
 Step3: Exploratory ddata analysis (EDA). This step consists of the following actions:<br>
        &nbsp;&nbsp;&nbsp;A: report on the general info like, the number of rows and columns and missing points<br>
        &nbsp;&nbsp;&nbsp;B: Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be deleted.<br>
-Step4: Train Liner regression model. .<br>
+Step4: Train Liner regression model.<br>
 Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.
 
+
+![walkforward](https://github.com/user-attachments/assets/bfa838c3-4151-4caa-9800-eb13b7b7a0bf)
 
 
 
