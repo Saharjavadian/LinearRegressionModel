@@ -13,7 +13,7 @@ Step3:  Data preprocessing<br>
 Step4:  Exploratory data analysis (EDA). This step consists of the Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be removed.<br>
 Step5:  Train Linear regression model.<br>
 Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.<br><br>
-Step6:  Prediction
+Step6:  Prediction.<br>
 Step7:  Evaluation. Evaluation is done based on the RMSE and r2. which is the square root of the mean squared error and if RMSE is less than 10–15% of the mean, that's generally very good.<br>
 Step8:  Visualize the predictions
 
