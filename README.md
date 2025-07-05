@@ -7,16 +7,19 @@ The data set contains hourly power usage of a residential building in Houston, T
 The link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
 
 # The steps are outlined below
-Step1: Import libraries<br>
-Step2: load data<br>
-Step3: Exploratory ddata analysis (EDA). This step consists of the following actions:<br>
-       &nbsp;&nbsp;&nbsp;A: report on the general info like, the number of rows and columns and missing points<br>
-       &nbsp;&nbsp;&nbsp;B: Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be deleted.<br>
-Step4: Train Liner regression model.<br>
-Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.
+Step1: Import libraries. Not all libraries are needed in this task. <br>
+Step2: load data<br>. 
+Step3: Data preprocessing. 
+       &nbsp;&nbsp;&nbsp;A: report on the general info like, the number of rows and columns and missing points and preprocessing the data frame<br>
+       
+Step4: Exploratory data analysis (EDA). This step consists of the following actions:<br>
+       &nbsp;&nbsp;&nbsp;B: Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be removed.<br>
 
-
-
+Step5: Train Linear regression model.<br>
+Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.<br><br>
+Step6: Prediction
+Step7: Evaluation. Evaluation is done based on the RMSE and r2. which is the square root of the mean squared error and if RMSE is less than 10–15% of the mean, that's generally very good.
+Step8: Visualize the predictions
 
 # Analysis
 1: Based on the plot in Step 3, energy usage decreased during the period of 2020–2021. Additionally, a shift in seasonal usage patterns is observed: in 2016–2017, higher energy consumption occurred toward the end of the year, whereas in 2020–2021, more energy was used in the early months. This pattern is evident from the density and distribution of data points on the plot.<br><br>
