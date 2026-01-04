@@ -1,6 +1,6 @@
 # Energy Usage Predictor (Regression Analysis)
 
-#Overview
+# Overview
 This project predicts hourly energy consumption (in watts) for a residential building using regression analysis. By learning patterns from historical electricity usage data, the model estimates future energy demand based on time-related factors such as seasonality and usage trends.
 Accurate energy forecasting can help improve energy planning, reduce operational costs, and support sustainability initiatives. This repository is designed to be easy to understand, easy to run, and safe for open-source use, even for readers without a technical background.
 
@@ -13,9 +13,17 @@ Link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-dat
 
 # Data Usage Notice
 The dataset is publicly available on Kaggle.
+
+
 No personally identifiable information (PII) is included.
+
+
 This project is intended for educational and research purposes only.
+
+
 Please review and comply with Kaggle’s dataset license before redistributing the raw data.
+
+
 
 # Project Workflow
 Step 1: Import libraries
