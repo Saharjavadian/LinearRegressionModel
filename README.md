@@ -1,22 +1,39 @@
- # Energy Usage Predictor (Regression Analysis)
-This project uses regression analysis to predict energy consumption (in watts) based on input features like temperature, time of day, etc.
-Accurately forecasting energy usage helps optimize resource allocation, reduce costs, and support sustainability efforts. This project builds and evaluates regression model to predict wattage usage.
+#Energy Usage Predictor (Regression Analysis)
 
-# Dataset
-The data set contains hourly power usage of a residential building in Houston, Texas, collected from smart meters.
-The link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
+#Overview
+This project predicts hourly energy consumption (in watts) for a residential building using regression analysis. By learning patterns from historical electricity usage data, the model estimates future energy demand based on time-related factors such as seasonality and usage trends.
+Accurate energy forecasting can help improve energy planning, reduce operational costs, and support sustainability initiatives. This repository is designed to be easy to understand, easy to run, and safe for open-source use, even for readers without a technical background.
 
-# The steps are outlined below
-Step1:  Import libraries. Not all libraries are needed in this task. <br>
-Step2:  load data<br>
-Step3:  Data preprocessing<br>
-Step4:  Exploratory data analysis (EDA). This step consists of the Outlier detection. If you are doing the root cause analysis you should keep these outliers but if you are building a predictive model , these outliers should be removed.<br>
-Step5:  Train Linear regression model.<br>
-Before building the regression model, we need to split the data into training and test sets. While a simple split (e.g., 80% training, 20% testing) is commonly used in standard regression tasks, time series data requires special handling. Since the order of time matters, we adopt an expanding window walk-forward validation approach, as illustrated in the diagram. This method ensures the model is always trained on past data and evaluated on future observations, better reflecting real-world forecasting scenarios.<br><br>
-Step6:  Prediction.<br>
-Step7:  Evaluation. Evaluation is done based on the RMSE and r2. which is the square root of the mean squared error and if RMSE is less than 10–15% of the mean, that's generally very good.<br>
-Step8:  Visualize the predictions
+#Dataset
+The dataset contains hourly residential power usage data collected from smart meters in a building located in Houston, Texas.
 
-# Analysis
-1: Based on the plot in Step 3, energy usage decreased during the period of 2020–2021. Additionally, a shift in seasonal usage patterns is observed: in 2016–2017, higher energy consumption occurred toward the end of the year, whereas in 2020–2021, more energy was used in the early months. This pattern is evident from the density and distribution of data points on the plot.<br><br>
-2: When comparing the plots for these five years, we observe subsequence outliers in the early months of 2016 and the later months of 2020—periods where consecutive data points display unusual behavior. If we plan to build a predictive model, such as a regression, it would be advisable to remove these time segments from the dataset to avoid distortion in the model's performance.<br><br>
+#Source: Kaggle
+Dataset name: Residential Power Usage (3 Years, Time Series)
+Link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-data-timeseries
+
+#Data Usage Notice
+The dataset is publicly available on Kaggle.
+No personally identifiable information (PII) is included.
+This project is intended for educational and research purposes only.
+Please review and comply with Kaggle’s dataset license before redistributing the raw data.
+
+#Project Workflow
+Step 1: Import libraries
+Step 2: Load the data
+Step 3: Data preprocessing
+Step 4: Exploratory Data Analysis (EDA) and outlier detection
+Step 5: Train a linear regression model using walk-forward validation
+Step 6: Make predictions
+Step 7: Evaluate performance using RMSE and R²
+Step 8: Visualize predictions
+
+#Key Observations
+Energy usage decreased during 2020–2021.
+Seasonal usage patterns shifted between early and late parts of the year.
+Outliers were observed in early 2016 and late 2020, which should be removed for predictive modeling.
+
+#Legal and Open-Source Considerations
+This project does not involve personal data or restricted systems. Data is available for public
+All code is intended for open-source use.
+Suitable for educational and research purposes.
+
