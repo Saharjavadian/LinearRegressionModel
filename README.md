@@ -14,12 +14,9 @@ Link: https://www.kaggle.com/datasets/srinuti/residential-power-usage-3years-dat
 # Data Usage Notice
 The dataset is publicly available on Kaggle.
 
-
 No personally identifiable information (PII) is included.
 
-
 This project is intended for educational and research purposes only.
-
 
 Please review and comply with Kaggle’s dataset license before redistributing the raw data.
 
