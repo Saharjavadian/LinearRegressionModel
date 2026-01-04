@@ -24,12 +24,19 @@ Please review and comply with Kaggle’s dataset license before redistributing t
 
 # Project Workflow
 Step 1: Import libraries
+
 Step 2: Load the data
+
 Step 3: Data preprocessing
+
 Step 4: Exploratory Data Analysis (EDA) and outlier detection
+
 Step 5: Train a linear regression model using walk-forward validation
+
 Step 6: Make predictions
+
 Step 7: Evaluate performance using RMSE and R²
+
 Step 8: Visualize predictions
 
 # Key Observations
@@ -38,7 +45,9 @@ Seasonal usage patterns shifted between early and late parts of the year.
 Outliers were observed in early 2016 and late 2020, which should be removed for predictive modeling.
 
 # Legal and Open-Source Considerations
-This project does not involve personal data or restricted systems. Data is available for public
+This project does not involve personal data or restricted systems. Data is available for public.
+
 All code is intended for open-source use.
+
 Suitable for educational and research purposes.
 
