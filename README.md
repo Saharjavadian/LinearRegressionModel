@@ -1,9 +1,12 @@
 # Energy Usage Predictor (Regression Analysis)
 
 # Overview
-Reducing heating load can lead to significant cost savings for households, particularly for low-income households. Analysis indicates that heating load is most strongly influenced by overall building height, as shown in the heat map. This finding is further supported by the multilinear regression results, where overall height has the largest and positive coefficient, indicating a strong direct relationship with heating load.
+Reducing heating load can lead to significant cost savings for households, particularly for low-income households.
+There are two findings based on this analysis.
 
-Relative compactness and wall area are the next most influential factors. Both variables have negative coefficients in the regression model, suggesting that increasing relative compactness and wall area is associated with a reduction in heating load.
+First finding: Analysis indicates that heating load is most strongly influenced by overall building height, as shown in the heat map. This finding is further supported by the multilinear regression results, where overall height has the largest and positive coefficient, indicating a strong direct relationship with heating load. Relative compactness and wall area are the next most influential factors. Both variables have negative coefficients in the regression model, suggesting that increasing relative compactness and wall area is associated with a reduction in heating load.
+
+Second finding: When the results are plotted, the scatter reveals clear nonlinearity in the dataset, indicating that the underlying relationships are not linear. In fact, load data are inherently nonlinear in nature, which explains why linear models may struggle to fully capture the observed patterns.
 
 # Dataset
 The dataset includes simulated energy data coming from buildings that vary in glazing area, glazing area distribution, orientation, and other design parameters. Different combinations of these characteristics result in 768 distinct building configurations. The dataset contains 768 samples with 8 features and is used to predict two continuous target variables. 
