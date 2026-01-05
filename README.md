@@ -45,6 +45,7 @@ Step 9: Visualize residuals
 
 .....
 
+<img width="384" height="278" alt="2026 residuals" src="https://github.com/user-attachments/assets/e1aa8800-d474-4835-be8c-488bbb60970f" />
 
 # Legal and Open-Source Considerations
 This project does not involve personal data or restricted systems. Data is available for public.
