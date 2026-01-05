@@ -54,6 +54,11 @@ Second finding: When the results are plotted, the scatter reveals clear nonlinea
 
 <img width="384" height="278" alt="2026 residuals" src="https://github.com/user-attachments/assets/e1aa8800-d474-4835-be8c-488bbb60970f" />
 
+The predicted vs actual heating load data is illustrated as below:
+
+
+![predicted_actual](https://github.com/user-attachments/assets/44416560-1246-4411-b022-a9fdee25dbe7)
+
 # Legal and Open-Source Considerations
 This project does not involve personal data or restricted systems. Data is available for public.
 
