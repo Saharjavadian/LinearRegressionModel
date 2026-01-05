@@ -1,4 +1,4 @@
-# Energy Usage Predictor (Regression Analysis)
+# Multiple Linear Regression Analysis for Predicting Building Heating Load
 
 # Overview
 Reducing heating load can lead to significant cost savings for households, particularly for low-income households.
