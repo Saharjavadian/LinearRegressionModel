@@ -52,7 +52,8 @@ First finding: Analysis indicates that heating load is most strongly influenced 
 Second finding: When the results are plotted, the scatter reveals clear nonlinearity in the dataset, indicating that the underlying relationships are not linear. In fact, load data are inherently nonlinear in nature, which explains why linear models may struggle to fully capture the observed patterns.
 
 
-<img width="384" height="278" alt="2026 residuals" src="https://github.com/user-attachments/assets/e1aa8800-d474-4835-be8c-488bbb60970f" />
+![residuals](https://github.com/user-attachments/assets/1239b3e2-f5ee-4575-9323-928941062bc2)
+
 
 The predicted vs actual heating load data is illustrated as below:
 
